@@ -10,9 +10,10 @@ nav {
     height: 101%;
     border: 2px solid rgba(0, 22, 22, 0.4);
     box-sizing: border-box;
+    margin-right: 10px;
 }
 
-header {
+#nav-title {
     
     font-size: 30px;
     text-align: center;
@@ -37,13 +38,23 @@ ul {
 
 main {
     width: calc(100% - 300px);
-    background-color: red;
-    position: absolute;
+    position:relative;
     left: 300px;
+    box-sizing: border-box;
+    padding: 20px;
+    display: block;
 }
 
 a {
     text-decoration: none;
     color: black;
+}
+
+#main_header, .title {
+    font-size: 28.8px;
+}
+
+p {
+    font-size: 16px;
 }
 
