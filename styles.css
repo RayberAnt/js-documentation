@@ -10,7 +10,6 @@ nav {
     height: 101%;
     border: 2px solid rgba(0, 22, 22, 0.4);
     box-sizing: border-box;
-
 }
 
 header {
@@ -24,14 +23,27 @@ ul li {
     padding: 10px 30px;
     border-top: 1px solid black;
     font-size: 16px;
+    
 }
 
 ul {
     height: 89%;
     margin: 25px 0;
-    overflow-y: scroll;
+    overflow-y: auto;
     overflow-x: hidden;
     line-height: 1.5;
     max-width: 700px;
+}
+
+main {
+    width: calc(100% - 300px);
+    background-color: red;
+    position: absolute;
+    left: 300px;
+}
+
+a {
+    text-decoration: none;
+    color: black;
 }
 
