@@ -12,16 +12,17 @@ nav {
     position: fixed;
     top: -2px;
     width: 300px;
-    height: 101%;
+    height: 99%;
     border: 2px solid rgba(0, 22, 22, 0.4);
     box-sizing: border-box;
     margin-right: 10px;
+    border-bottom: none;
 }
 
 #nav-title {
     font-size: 30px;
     text-align: center;
-    margin: 15px 0;
+    margin: 10px 0;
 }
 
 nav ul li {
@@ -41,7 +42,7 @@ nav ul {
 }
 
 main {
-    margin: 0 0 110px 310px;
+    margin: 0 0 0 310px;
     padding: 20px;
     max-width: 900px;
 }
@@ -75,6 +76,19 @@ section article code {
     background-color:aliceblue;
     padding: 20px;
     box-sizing: border-box;
-    padding-right: 400px;
+    padding-right: 350px;
     margin-left: 20px;
+    border-radius: 5px;
+}
+
+section article ul li ul li {
+    list-style-type: circle;
+}
+
+section article ul li a {
+    border-bottom: 1px solid black;
+}
+
+ section article ul li a:hover {
+    color: rgb(122, 141, 211);
 }
