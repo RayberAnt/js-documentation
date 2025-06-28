@@ -19,7 +19,6 @@ nav {
 }
 
 #nav-title {
-    
     font-size: 30px;
     text-align: center;
     margin: 15px 0;
@@ -52,17 +51,30 @@ a {
     color: black;
 }
 
-#main_header, .title {
+/* Reprogramacion del codigo en bloques reutilizables */
+
+section header {
     font-size: 28.8px;
 }
 
-p, .list li {
-    font-size: 16px;
+section article ul li, section article p {
     margin: 16px 0;
 }
 
-.list li {
+section article ul li {
     list-style:disc;
     margin-left: 50px;
 }
 
+article {
+    margin: 15px;
+}
+
+section article code {
+    display: block;
+    background-color:aliceblue;
+    padding: 20px;
+    box-sizing: border-box;
+    padding-right: 400px;
+    margin-left: 20px;
+}
