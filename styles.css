@@ -1,5 +1,10 @@
+html, body {
+    line-height: 1.5;
+}
+
 body {
     font-family: 'Open Sans', Arial, sans-serif;
+    
 
 }
 
@@ -20,14 +25,14 @@ nav {
     margin: 15px 0;
 }
 
-ul li {
+nav ul li {
     padding: 10px 30px;
     border-top: 1px solid black;
     font-size: 16px;
     
 }
 
-ul {
+nav ul {
     height: 89%;
     margin: 25px 0;
     overflow-y: auto;
@@ -37,12 +42,9 @@ ul {
 }
 
 main {
-    width: calc(100% - 300px);
-    position:relative;
-    left: 300px;
-    box-sizing: border-box;
+    margin: 0 0 110px 310px;
     padding: 20px;
-    display: block;
+    max-width: 900px;
 }
 
 a {
@@ -54,7 +56,13 @@ a {
     font-size: 28.8px;
 }
 
-p {
+p, .list li {
     font-size: 16px;
+    margin: 16px 0;
+}
+
+.list li {
+    list-style:disc;
+    margin-left: 50px;
 }
 
