@@ -5,7 +5,6 @@ html, body {
 body {
     font-family: 'Open Sans', Arial, sans-serif;
     
-
 }
 
 nav {
@@ -51,8 +50,6 @@ a {
     text-decoration: none;
     color: black;
 }
-
-/* Reprogramacion del codigo en bloques reutilizables */
 
 section header {
     font-size: 28.8px;
